@@ -1,0 +1,41 @@
+.image-content{
+    
+    /* border:solid red 2px; */
+    display: flex;
+    color:white;
+    height: 500px;
+    
+}
+
+.poster-photo{
+    width:25%;
+    display:block;
+    margin-right:.5rem;
+    border-radius: .5rem;
+}
+
+.backdrop-photo{
+width:60%;
+display:block;
+}
+
+.genre{
+    display: inline-block;
+    padding: .5rem 2rem;
+    color:white;
+    border:solid white 2px;
+    border-radius: 2rem;
+
+}
+
+.info-section{
+    margin-top: 1rem;
+}
+
+.description{
+    color:white;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width:80ch;
+    margin-top:.7rem;
+}
