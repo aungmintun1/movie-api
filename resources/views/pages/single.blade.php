@@ -35,13 +35,28 @@
   
     </div>
   <div class="info-section container">
+   <div>
     @foreach ($result['genre_names'] as $genre )
     <div class="genre">{{$genre}}</div>
     @endforeach
 
     <p class="description">{{$result['plot_overview']}}</p>
     
+    <div class="gray-border"></div>
+    <p class="description mb-2">Creators: John Doe</p>
+    <div class="gray-border"></div>
+    <p class="description">Stars: Jack Doe, Jane Doe, Robert Doe </p>
+    
   </div>
+
+  <div class="stream-section">
+  <div class="stream-container">
+    <img src="{{ asset('img/hulu.png') }}" class="stream-image" alt="">
+    <img src="{{ asset('img/prime.png') }}" class="stream-image" alt="">
+    <img src="{{ asset('img/amazon.png') }}" class="stream-image" alt="">
+  </div>
+   <div class="add-button"><p class="plus">+</p> <p class="text-xl font-bold mt-2">Add to Watchlist</p> <div class="vertical-border"></div> <div class="arrow"></div></div>
+</div>
   
 </section>
 
